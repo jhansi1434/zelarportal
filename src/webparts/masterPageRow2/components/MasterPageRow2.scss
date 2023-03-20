@@ -1,0 +1,84 @@
+
+// .Containers{
+//     min-width:100% !important;
+//     height:200px;
+//     background-color:navy;
+//     color:white;
+//     font-size: 12px;
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     text-align: center;
+// }
+// .row1{
+//     animation: marquee 10s  linear infinite;
+//     margin-top: 120px !important;
+//   }
+//   @keyframes marquee {
+//     0% {
+//       transform: translateY(0);
+//     }
+//     100% {
+//       transform: translateY(-100%);
+//     }
+//   }
+
+// .row2{
+//     z-index:-1;
+//     background-color: red;
+//   }
+
+  
+// //   .carousel-item:not(.active){
+// //      display: none ;
+// //   } 
+//   .row2container{
+//     display: flex;
+//     flex-direction: row;
+//     &__part2{
+//         display: grid;
+//         grid-template-columns: auto auto auto;
+   
+//      color: red;
+//      &__item{
+        
+//         background-color: white;
+//         border: 1px solid black;
+//         border-radius: 2px;
+//         padding: 2px;
+//      }
+   
+
+//     }
+//     &__item2{
+//         width: 100%;
+//         background-color: white;
+//         border: 1px solid black;
+//         border-radius: 2px;
+//         padding: 2px;
+//      }
+//   }
+  
+ 
+
+  //carousel
+  .each-slide-effect > div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+   height: 350px;
+ }
+ .each-slide-effect span {
+   padding: 20px;
+   font-size: 20px;
+   background: #EFEFEF;
+   text-align: center;
+ }
+ .each-slide img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+   height: 200px;
+    width:100%;
+ }

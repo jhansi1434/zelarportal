@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Containers{
+  min-width:100% !important;
+  height:250px;
+  background-color:Navy;
+  color:white;
+  font-size: 12px;
+  // align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+.birthday{
+  margin-left: 5px;
+  align-content: center;
+}
+
+.rowMain{
+  border-right:2px solid white;
+  border-left: 2px solid white;
+}
+
+span{
+  color:transparent;
+  opacity: 1;
+  //text-rendering: none;
+ }
+
+
+
+
+.row1{
+    animation: marquee 10s  linear infinite;
+    margin-top: 140px !important;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+.row2{
+    z-index:-1;
+    background-color:black;
+  }
+
+
+  .row3{
+    animation: marquee 15s  linear infinite;
+    margin-top: 220px !important;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  
+
+  
+.carousel-item:not(.active){
+  display: none ;
+} 
